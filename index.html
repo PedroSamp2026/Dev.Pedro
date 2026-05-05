@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?v=4">
     <title>PedroDev.estagio</title>
 </head>
 <body>
+    <a class="skip-link" href="#home">Ir para o conteúdo</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
     <header class="site-header" id="top" role="banner">
         <div class="container header-inner">
             <a class="logo" href="#home">PedroDev</a>
@@ -65,7 +68,10 @@
             <div class="project-grid">
                 <article class="project-card">
                     <h3>Projeto 1</h3>
-                    <a href="https://vsdrinks.com.br/#servico" target="_blank" rel="noopener noreferrer"><img src="https://vsdrinks.com.br/assets/Vs2%20imagem.jpg" alt="Projeto 1"></a>
+                    <a class="project-link" href="https://vsdrinks.com.br/#servico" target="_blank" rel="noopener noreferrer">
+                        <img src="https://vsdrinks.com.br/assets/Vs2%20imagem.jpg" alt="Projeto 1">
+                        <span class="project-cta">Abrir projeto</span>
+                    </a>
                 </article>
             </div>
         </section>
@@ -78,7 +84,7 @@
             <p>Vamos conversar? Você pode me encontrar nas redes sociais ou enviar uma mensagem para saber mais sobre meus projetos.</p>
             <ul class="contact-list">
                 <li><a href="https://www.instagram.com/pedro.dev.estagio/" target="_blank" rel="noopener">Instagram</a></li>
-                <li><a href="https://www.linkedin.com/in/pedro-dev/" target="_blank" rel="noopener">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/pedro-oliveira-sampaio-6546a6408/?skipRedirect=true" target="_blank" rel="noopener">LinkedIn</a></li>
             </ul>
         </section>
     </main>
@@ -89,8 +95,10 @@
         </div>
     </footer>
 
-    <a class="back-to-top" href="#top" aria-label="Voltar ao topo" title="Voltar ao topo">&uarr;</a>
+    <a class="back-to-top" href="#top" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <span class="back-to-top-icon" aria-hidden="true">&uarr;</span>
+    </a>
 
-    <script src="index.js"></script>
+    <script src="index.js?v=4"></script>
 </body>
 </html>
